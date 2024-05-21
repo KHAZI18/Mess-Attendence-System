@@ -7,8 +7,9 @@ const app = express();
 const port = 3000;
 
 
-// const uri = 'mongodb+srv://rootzain:rootzain@cluster0.aufjb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const uri ='mongodb://localhost:27017';
+
+// const uri ='mongodb://localhost:27017';
+const uri = 'mongodb+srv://faizankhazi8:faizankhazi8@cluster18.yyhrvw0.mongodb.net/'
 const dbName = 'collegeHostel';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
